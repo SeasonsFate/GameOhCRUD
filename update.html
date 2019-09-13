@@ -1,0 +1,105 @@
+<html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .hero-image {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://coverfiles.alphacoders.com/452/45293.jpg");
+            height: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+
+        .hero-text button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 10px 25px;
+            color: black;
+            background-color: #ddd;
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+<container>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:50px">Game Oh CRUD</h1>
+            <p>Urban dictionary defines crud as one of the most useful words used for 'Crap'</p>
+        </div>
+    </div>
+    <br>
+
+    <center>
+        <h3><b>Update Character</b></h3>
+    </center>
+    <br>
+    <form>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Update Character Name</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g. Jon Snow">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Update House Name</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g. Stark">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Update Actor Name</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g. Emilia Clarke">
+        </div>
+
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Is the character alive?</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+        </div>
+
+    </form>
+
+    <br>
+    <button type="button" class="btn btn-success">Submit</button>
+    <br>
+
+
+</container>
+</body>
+<script src="update.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</html>
