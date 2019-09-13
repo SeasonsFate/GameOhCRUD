@@ -16,7 +16,7 @@ public class GameOfCRUDControllers {
     @Autowired
     private GameOfCRUDRepository repository;
 
-    @RequestMapping(value = "GameOfCRUDValues", method = RequestMethod.GET)
+    @RequestMapping(value = "gameohcrud/Values", method = RequestMethod.GET)
     public List<GameOfCRUD> ListAllGameOfCRUD(){
         return repository.findAll();
     }
