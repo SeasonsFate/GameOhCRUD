@@ -6,7 +6,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh "sudo cp -rpf *.html /var/www/html/"
-		            sh "sudo cp -rpf GameOhCrud.js /var/www/html/"
+		            sh "sudo cp -rpf *.js /var/www/html/"
                 }
                 }
                 }
