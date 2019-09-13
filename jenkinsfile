@@ -5,4 +5,4 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                sh "sudo cp -rpf html_src/builds.html /var/www/html/"
+                sh "sudo cp -rpf GameOhCrud.html /var/www/html/"
