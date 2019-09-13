@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7d6ddcc4-5d31-4b0c-9a99-401bca725ebc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/GameOfCRUDControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/controllers/GameOfCRUDControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/GameOfCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/model/GameOfCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/GameOfCRUDRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/repository/GameOfCRUDRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/AppTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +37,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/qa" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,6 +45,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.qa" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -54,7 +63,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GameOfCRUDControllerTest.testDeleteHero">
+    <configuration name="GameOfCRUDControllerTest.testAddHero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GameOfOhCRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.controllers.GameOfCRUDControllerTest" />
+      <option name="METHOD_NAME" value="testAddHero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameOfCRUDControllerTest.testDeleteHero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GameOfOhCRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.controllers.GameOfCRUDControllerTest" />
+      <option name="METHOD_NAME" value="testDeleteHero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameOfCRUDControllerTest.testGetAllGameOfCRUD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GameOfOhCRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.controllers.GameOfCRUDControllerTest" />
+      <option name="METHOD_NAME" value="testGetAllGameOfCRUD" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameOfCRUDControllerTest.testGetGameOfCRUD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GameOfOhCRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.controllers.GameOfCRUDControllerTest" />
+      <option name="METHOD_NAME" value="testGetGameOfCRUD" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="GameOfOhCRUD" />
       <extension name="coverage">
@@ -70,6 +143,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameOfCRUDControllerTest.testDeleteHero" />
+        <item itemvalue="JUnit.GameOfCRUDControllerTest.testAddHero" />
+        <item itemvalue="JUnit.GameOfCRUDControllerTest.testGetGameOfCRUD" />
+        <item itemvalue="JUnit.GameOfCRUDControllerTest.testGetAllGameOfCRUD" />
         <item itemvalue="Spring Boot.App" />
       </list>
     </recent_temporary>

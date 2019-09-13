@@ -1,4 +1,4 @@
-package model;
+package com.qa.model;
 
 
 import javax.persistence.Entity;
@@ -45,7 +45,7 @@ public class GameOfCRUD {
     }
 
     public String getActorName() {
-        return character_name;
+        return actor_name;
     }
 
     public void setActorName(String actor_name) {

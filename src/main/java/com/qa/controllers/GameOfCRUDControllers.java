@@ -1,10 +1,10 @@
-package controllers;
+package com.qa.controllers;
 
 
-import model.GameOfCRUD;
+import com.qa.model.GameOfCRUD;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import repository.GameOfCRUDRepository;
+import com.qa.repository.GameOfCRUDRepository;
 
 import javax.transaction.Transactional;
 import java.util.List;

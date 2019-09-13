@@ -1,6 +1,6 @@
-package repository;
+package com.qa.repository;
 
-import model.GameOfCRUD;
+import com.qa.model.GameOfCRUD;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface GameOfCRUDRepository extends JpaRepository<GameOfCRUD,Long> {
